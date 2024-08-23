@@ -40,6 +40,7 @@
 
 ### 訓練方式
 參照[mmpretrain](https://mmpretrain.readthedocs.io/zh-cn/latest/index.html)框架進行訓練
+- 訓練 config 文件使用 .\configs\van\van-large_8xb128_plant_crop_anomaly.py
 - 訓練數據: 將水稻異常區域進行裁切後的資料集
 - 損失函數: LabelSmoothLoss
 - 優化器: AdamW
