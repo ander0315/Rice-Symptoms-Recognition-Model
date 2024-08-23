@@ -50,13 +50,13 @@
 
 
 ### 模型評估
-- accuracy/top1: 97.6825  
-- accuracy/top3: 99.5731  
-- accuracy/top5: 99.7561  
-- mAP: 97.3660  
-- precision: 97.9251  
-- recall: 95.4201  
-- f1-score: 96.5334
+- accuracy/top1: 97.72 %
+- accuracy/top3: 99.43 %  
+- accuracy/top5: 99.63 %  
+- mAP: 97.36 %
+- precision: 97.50 %
+- recall: 96.88 %
+- f1-score: 91.79 %
 
 ### 模型可視化
 使用 Grad-CAM 技術進行視覺化，以產生模型對稻穗區域的注意力熱圖，並進行解釋。
